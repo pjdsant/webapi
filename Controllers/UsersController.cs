@@ -10,11 +10,12 @@ namespace webapi.Controllers
     {
         private User[] users = new User[]
         {
-            new User { id = 1, name = "Haleemah Redfern", email = "email1@mail.com", phone = "01111111", role = 1},
-            new User { id = 2, name = "Aya Bostock", email = "email2@mail.com", phone = "01111111", role = 1},
-            new User { id = 3, name = "Sohail Perez", email = "email3@mail.com", phone = "01111111", role = 1},
-            new User { id = 4, name = "Merryn Peck", email = "email4@mail.com", phone = "01111111", role = 2},
-            new User { id = 5, name = "Cairon Reynolds", email = "email5@mail.com", phone = "01111111", role = 3}
+            new User { id = 1, name = "Haleemah Redfern", email = "email1@mail.com", phone = "01111111", role = 1, age = 18},
+            new User { id = 2, name = "Aya Bostock", email = "email2@mail.com", phone = "01111111", role = 1, age = 32},
+            new User { id = 3, name = "Sohail Perez", email = "email3@mail.com", phone = "01111111", role = 1, age = 23},
+            new User { id = 4, name = "Merryn Peck", email = "email4@mail.com", phone = "01111111", role = 2, age = 28},
+            new User { id = 5, name = "Cairon Reynolds", email = "email5@mail.com", phone = "01111111", role = 3, age = 44}
+
         };
 
         // GET: api/Users
